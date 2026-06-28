@@ -44,7 +44,7 @@ class Solution:
             helper(node.left, current)
             helper(node.right, current)
             
-        # Initialize the DFS traversal starting at the root with a current value of 0
+        # Initialize the DFS traversal starting at the root with a current value of 0.
         helper(root, 0)
         
         return result
